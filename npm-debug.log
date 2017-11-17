@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'botbuilder' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData botbuilder
+8 silly fetchNamedPackageData botbuilder
+9 silly mapToRegistry name botbuilder
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'botbuilder',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'botbuilder',
+12 silly mapToRegistry   name: 'botbuilder',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/botbuilder
+14 verbose request uri https://registry.npmjs.org/botbuilder
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 21:22:46
+17 verbose request id e41efd536cba83ca
+18 verbose etag W/"59d6cd5f-198c8"
+19 verbose lastModified Fri, 06 Oct 2017 00:25:03 GMT
+20 http request GET https://registry.npmjs.org/botbuilder
+21 verbose stack Error: kill ENOSYS
+21 verbose stack     at exports._errnoException (util.js:1018:11)
+21 verbose stack     at process.kill (internal/process.js:190:13)
+21 verbose stack     at process.listener (C:\Users\54668\AppData\Roaming\nvm\v6.10.3\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+21 verbose stack     at emitNone (events.js:91:20)
+21 verbose stack     at process.emit (events.js:185:7)
+21 verbose stack     at processEmit (C:\Users\54668\AppData\Roaming\nvm\v6.10.3\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+21 verbose stack     at processEmit (C:\Users\54668\AppData\Roaming\nvm\v6.10.3\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+21 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+22 verbose cwd X:\chatbot
+23 error Windows_NT 10.0.14393
+24 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "botbuilder"
+25 error node v6.10.3
+26 error npm  v3.10.10
+27 error code ENOSYS
+28 error errno ENOSYS
+29 error syscall kill
+30 error kill ENOSYS
+31 error If you need help, you may report this error at:
+31 error     <https://github.com/npm/npm/issues>
+32 verbose exit [ 1, true ]
